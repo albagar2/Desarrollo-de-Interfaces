@@ -19,7 +19,7 @@ namespace UD1_EJ3_HERENCIA
         }
 
         // metodo virtual para poder soobreescribir y asin usar el polimorfismo
-        public void Prepare()
+        public virtual void Prepare()
         {
             Console.WriteLine($"Preparando la cantidad {Amount} gramos de {Name}");
         }

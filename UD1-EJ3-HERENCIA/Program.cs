@@ -10,6 +10,13 @@ namespace UD1_EJ3_HERENCIA
     {
         static void Main(string[] args)
         {
+
+            Meat pig = new Meat("Solomillo", 500 , "cerdo ibérico");
+            Vegetable lettuce = new Vegetable("Lechuga", 200);
+
+
+            pig.Prepare();
+            lettuce.Prepare();
         }
     }
 }

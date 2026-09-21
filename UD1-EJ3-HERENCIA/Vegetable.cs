@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace UD1_EJ3_HERENCIA
 {
-    internal class Vegetable
+    internal class Vegetable : Ingredient
     {
+        public Vegetable(string name, double amount) : base(name, amount)
+        {
+        }
+
+        public override void Prepare()
+        {
+            Console.WriteLine($"Lavando y cortando {Amount} gramos de {Name}");
+        }
     }
 }
