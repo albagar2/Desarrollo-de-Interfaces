@@ -1,8 +1,9 @@
 <Solution>
-  <Project Path="U1-EJ5-EXCEPCIONES/UD1-EJ5-EXCEPCIONES.csproj" Id="a75cea8c-c6e5-4805-a253-4919b5b9c2f2" />
-  <Project Path="UD1-EJ1-ARRAY/UD1-EJ1-ARRAY.csproj" Id="9b77f8da-216b-41db-8ae4-d3f6d1231b38" />
-  <Project Path="UD1-EJ2-CLASE/UD1-EJ2-CLASE.csproj" Id="912af6da-f567-4a24-96d3-9ce83c134e1d" />
-  <Project Path="UD1-EJ3-HERENCIA/UD1-EJ3-HERENCIA.csproj" Id="3f885b5f-72df-4d04-9029-e8f4606914c3" />
-  <Project Path="UD1-EJ4-INTERFACES/UD1-EJ4-INTERFACES.csproj" Id="89def27c-689b-4e2e-9383-05e9d8c17ab7" />
-  <Project Path="UD1-EJ6-LISTAS/UD1-EJ6-LISTAS.csproj" Id="cc9d9460-80e1-49ff-98dc-ac60684a7532" />
+  <Project Path="../../../../../../source/repos/UD1-EJ1-ARRAY/Ejercicio01-CasaDelTerror/Ejercicio01-CasaDelTerror.csproj" Id="221c6c93-c58d-467e-950a-237645d3c934" />
+  <Project Path="../../../../../../source/repos/UD1-EJ1-ARRAY/U1-EJ5-EXCEPCIONES/UD1-EJ5-EXCEPCIONES.csproj" Id="a75cea8c-c6e5-4805-a253-4919b5b9c2f2" />
+  <Project Path="../../../../../../source/repos/UD1-EJ1-ARRAY/UD1-EJ1-ARRAY/UD1-EJ1-ARRAY.csproj" Id="9b77f8da-216b-41db-8ae4-d3f6d1231b38" />
+  <Project Path="../../../../../../source/repos/UD1-EJ1-ARRAY/UD1-EJ2-CLASE/UD1-EJ2-CLASE.csproj" Id="912af6da-f567-4a24-96d3-9ce83c134e1d" />
+  <Project Path="../../../../../../source/repos/UD1-EJ1-ARRAY/UD1-EJ3-HERENCIA/UD1-EJ3-HERENCIA.csproj" Id="3f885b5f-72df-4d04-9029-e8f4606914c3" />
+  <Project Path="../../../../../../source/repos/UD1-EJ1-ARRAY/UD1-EJ4-INTERFACES/UD1-EJ4-INTERFACES.csproj" Id="89def27c-689b-4e2e-9383-05e9d8c17ab7" />
+  <Project Path="../../../../../../source/repos/UD1-EJ1-ARRAY/UD1-EJ6-LISTAS/UD1-EJ6-LISTAS.csproj" Id="cc9d9460-80e1-49ff-98dc-ac60684a7532" />
 </Solution>
