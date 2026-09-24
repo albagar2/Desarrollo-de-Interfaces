@@ -19,8 +19,16 @@ namespace Ejercicio01_CasaDelTerror
 
         public override Boolean AdmitirVisitante(int edad, int altura)
         {
-            base.AdmitirVisitante(edad, altura);
+            if (!base.AdmitirVisitante(edad, altura))
+            {
+                return false;
+            }
+
             Console.WriteLine("Disfruta de la casa del terror");
+            Console.WriteLine($"Nivel de miedo: {NivelDeMiedo}");
+            Console.WriteLine("El visitante puede disfrutar de la atración Casa del terror");
+
+            return true;
 
         }
     }

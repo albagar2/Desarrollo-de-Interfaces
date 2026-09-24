@@ -8,23 +8,29 @@ namespace Ejercicio01_CasaDelTerror
 {
     internal class Atraccion
     {
-        string nombre { get; set; }
-        int edadMinima { get; set; }
-        int alturaMinima { get; set; }
-        double precio { get; set; }
+        public string Nombre { get; set; }
+        public int EdadMinima { get; set; }
+        public int AlturaMinima { get; set; }
+        public double Precio { get; set; }
 
         public Atraccion (string nombreA, int edad, int altura, double precioA)
         {
-            nombre = nombreA;
-            edadMinima = edad;
-            alturaMinima = altura;
-            precio = precioA;
-
+            Nombre = nombreA;
+            EdadMinima = edad;
+            AlturaMinima = altura;
+            Precio = precioA;
         }
 
-        public virtual Boolean AdmitirVisitante(int edad, int altura)
+        public virtual bool AdmitirVisitante(int edad, int altura)
         {
-
+            if (edad >= 14 && altura >= 130)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
     }
